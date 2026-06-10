@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    font-family: Arial;
+}
+/* Navbar Styling */
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar h2{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+/* Hero Styling */
+
+.hero{
+    background-color: lightgray;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.title{
+    color: red;
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+}
+    
+.bio{
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+}
+
+.products{
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+/* Product Styling */
+
+.items-card{
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+}
+
+.item-card img{
+    width: 200px;
+    height: 200px;
+}
+
+.item-card button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Footer Styling */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .navbar li{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .items-card{
+        flex-direction: column;
+        align-items: center;
+    }
+}
